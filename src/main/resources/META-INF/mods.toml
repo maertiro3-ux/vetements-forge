@@ -1,0 +1,23 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT"
+
+[[mods]]
+modId="vetements"
+version="1.0.0"
+displayName="Vetements"
+description='''Fullbright, FreeLook, chat styles, prefixes and suffixes, math solver and AuthMe auto-login.'''
+
+[[dependencies.vetements]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="CLIENT"
+
+[[dependencies.vetements]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="CLIENT"
